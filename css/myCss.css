@@ -30,6 +30,8 @@ div.bg{
 body>div.segment{
 	z-index:2!important;
 	padding-top:70px!important;
+	padding-right:0px!important;
+	padding-left:0px!important;
 	border:none!important;
 	box-shadow:none!important;
 }
