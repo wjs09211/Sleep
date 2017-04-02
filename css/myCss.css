@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+html, body, a, p, h1, h2, h3, h4, h5, h6, div, blockquote{
+	font-family: 'Noto Sans TC', sans-serif!important;
+}
+
+/*
+html { 
+	background: url(../image/bg2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: auto;
+}*/
+
+div.bg{
+	background: url("../image/bg2.jpg") no-repeat center center fixed; 
+	position:fixed;
+	z-index:-1;
+	width:100vw;
+	height:100vh;
+	background-size:cover;
+	filter:blur(5px);
+}
+
+.white{
+	color:white!important;
+}
+
+body>div.segment{
+	z-index:2!important;
+	padding-top:70px!important;
+	border:none!important;
+	box-shadow:none!important;
+}
+
+a{
+	text-decoration:none;
+}
+/*
+hr{
+	border:0;
+	height:1px;
+	background-image:-webkit-linear-gradient(left,black,grey,black);
+	background-image:-moz-linear-gradient(left,black,grey,black);
+	background-image:-ms-linear-gradient(left,black,grey,black);
+	background-image:-o-linear-gradient(left,black,grey,black);
+	margin:20px;
+}
+*/
